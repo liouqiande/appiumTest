@@ -1,0 +1,32 @@
+home_page.py                31 INFO     定位消息中心入口
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "tv_title_msg_center", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/8e661634-8d6a-48ca-9ff0-e5093e4fc404/click {"id": "8e661634-8d6a-48ca-9ff0-e5093e4fc404", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/8e661634-8d6a-48ca-9ff0-e5093e4fc404/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+base_page.py                56 INFO     get 消息中心 screenshot
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot {"sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot HTTP/1.1" 200 604866
+remote_connection.py       440 DEBUG    Finished Request
+msg_center_page.py          19 INFO     定位消息中心title
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "title_bar_name", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/a8cbfca4-7ae3-40da-9450-e1c081ecffea/attribute/text {"name": "text", "id": "a8cbfca4-7ae3-40da-9450-e1c081ecffea", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/a8cbfca4-7ae3-40da-9450-e1c081ecffea/attribute/text HTTP/1.1" 200 18
+remote_connection.py       440 DEBUG    Finished Request
+msg_center_page.py          13 INFO     定位消息中心返回按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "titlebar_left_back", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/2af53e83-71e2-4379-9f35-c255705214b3/click {"id": "2af53e83-71e2-4379-9f35-c255705214b3", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/2af53e83-71e2-4379-9f35-c255705214b3/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request

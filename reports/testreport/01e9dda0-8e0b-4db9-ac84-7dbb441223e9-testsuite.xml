@@ -1,0 +1,679 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554985623110" stop="1554985721398">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554985623110" status="passed" stop="1554985669417">
+      <name>test_home_page.TestHomePage.test_click_homepage_tab</name>
+      <attachments>
+        <attachment source="73a69910-943d-4ff5-ae69-d4166259c229-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="e0114726-8dae-45d1-8e65-2cc8a12a063c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="进入首页"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985644302" status="passed" stop="1554985644508">
+          <name>输入手机号码</name>
+          <title>输入手机号码</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985644508" status="passed" stop="1554985645203">
+          <name>点击同意单选框</name>
+          <title>点击同意单选框</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985645203" status="passed" stop="1554985645800">
+          <name>点击下一步按钮</name>
+          <title>点击下一步按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985645800" status="passed" stop="1554985648028">
+          <name>输入密码</name>
+          <title>输入密码</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985648028" status="passed" stop="1554985648807">
+          <name>点击确认按钮</name>
+          <title>点击确认按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985669194" status="passed" stop="1554985669417">
+          <name>获取模式设置按钮文案</name>
+          <title>获取模式设置按钮文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985669421" status="passed" stop="1554985671915">
+      <name>test_home_page.TestHomePage.test_click_person_center</name>
+      <attachments>
+        <attachment source="dbc7a60c-f5f8-4203-bff1-33a49f66a94b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击个人中心入口"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985669423" status="passed" stop="1554985671670">
+          <name>点击个人中心按钮</name>
+          <title>点击个人中心按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985671670" status="passed" stop="1554985671780">
+          <name>获取个人主页入口文案</name>
+          <title>获取个人主页入口文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985671780" status="passed" stop="1554985671915">
+          <name>点击个人中心页返回按钮</name>
+          <title>点击个人中心页返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985671918" status="passed" stop="1554985676875">
+      <name>test_home_page.TestHomePage.test_click_carlife_tab</name>
+      <attachments>
+        <attachment source="dbdaf580-a514-4eaf-a436-0b64e35a6c33-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击小桔车服tab"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985671919" status="passed" stop="1554985673794">
+          <name>点击小桔车服tab</name>
+          <title>点击小桔车服tab</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985673794" status="passed" stop="1554985675698">
+          <name>判断小桔车服页面行车服务按钮已经展示</name>
+          <title>判断小桔车服页面行车服务按钮已经展示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985675698" status="passed" stop="1554985676875">
+          <name>点击首页tab</name>
+          <title>点击首页tab</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985676878" status="passed" stop="1554985679558">
+      <name>test_home_page.TestHomePage.test_click_msg_center</name>
+      <attachments>
+        <attachment source="aba15d6e-aac4-4339-947f-f05c7390997d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击消息中心入口"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985676880" status="passed" stop="1554985679370">
+          <name>点击消息中心入口</name>
+          <title>点击消息中心入口</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985679370" status="passed" stop="1554985679452">
+          <name>获取消息中心页面title</name>
+          <title>获取消息中心页面title</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985679452" status="passed" stop="1554985679557">
+          <name>点击消息中心页返回按钮</name>
+          <title>点击消息中心页返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985679560" status="passed" stop="1554985683736">
+      <name>test_home_page.TestHomePage.test_click_service_count</name>
+      <attachments>
+        <attachment source="b23694a8-5a42-4ce1-9333-edc0d6461d90-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击服务分"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985679562" status="passed" stop="1554985682705">
+          <name>点击服务分</name>
+          <title>点击服务分</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985682705" status="passed" stop="1554985683558">
+          <name>获取h5页面title文案</name>
+          <title>获取h5页面title文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985683558" status="passed" stop="1554985683736">
+          <name>点击h5页面返回按钮</name>
+          <title>点击h5页面返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985683741" status="passed" stop="1554985688318">
+      <name>test_home_page.TestHomePage.test_click_today_money</name>
+      <attachments>
+        <attachment source="66e48c92-f0a4-4f27-82c2-476e442ba771-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击今日流水"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985683743" status="passed" stop="1554985687481">
+          <name>点击今日流水</name>
+          <title>点击今日流水</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985687481" status="passed" stop="1554985688197">
+          <name>获取h5页面title文案</name>
+          <title>获取h5页面title文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985688197" status="passed" stop="1554985688317">
+          <name>点击h5页面返回按钮</name>
+          <title>点击h5页面返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985688320" status="passed" stop="1554985692625">
+      <name>test_home_page.TestHomePage.test_click_today_order</name>
+      <attachments>
+        <attachment source="bfd84a63-288e-40ac-b43e-a07b86ba2953-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击今日接单"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985688321" status="passed" stop="1554985691734">
+          <name>点击今日接单</name>
+          <title>点击今日接单</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985691734" status="passed" stop="1554985692486">
+          <name>获取h5页面title文案</name>
+          <title>获取h5页面title文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985692486" status="passed" stop="1554985692624">
+          <name>点击h5页面返回按钮</name>
+          <title>点击h5页面返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985692630" status="passed" stop="1554985697856">
+      <name>test_home_page.TestHomePage.test_click_compliance</name>
+      <attachments>
+        <attachment source="c9aaf26e-6309-4c7f-91e4-89e52847a493-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击合规按钮"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985692634" status="passed" stop="1554985696017">
+          <name>点击合规按钮</name>
+          <title>点击合规按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985696017" status="passed" stop="1554985697700">
+          <name>获取h5页面title文案</name>
+          <title>获取h5页面title文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985697700" status="passed" stop="1554985697855">
+          <name>点击h5页面返回按钮</name>
+          <title>点击h5页面返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985697861" status="passed" stop="1554985703544">
+      <name>test_home_page.TestHomePage.test_click_reward</name>
+      <attachments>
+        <attachment source="c5ffe42b-e960-4b46-bdf0-e78ffe876375-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击奖励按钮"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985697864" status="passed" stop="1554985701217">
+          <name>点击奖励按钮</name>
+          <title>点击奖励按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985703218" status="passed" stop="1554985703391">
+          <name>获取h5页面title文案</name>
+          <title>获取h5页面title文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985703391" status="passed" stop="1554985703544">
+          <name>点击h5页面返回按钮</name>
+          <title>点击h5页面返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985703546" status="passed" stop="1554985707567">
+      <name>test_home_page.TestHomePage.test_click_hot_map</name>
+      <attachments>
+        <attachment source="8508f4e0-31bd-4cea-a812-a06bdf1d533e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击热力图按钮"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985703548" status="passed" stop="1554985706927">
+          <name>点击热力图按钮</name>
+          <title>点击热力图按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985706927" status="passed" stop="1554985707435">
+          <name>判断订单按钮是否展示</name>
+          <title>判断订单按钮是否展示</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985707435" status="passed" stop="1554985707566">
+          <name>点击热力图返回按钮</name>
+          <title>点击热力图返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985707569" status="passed" stop="1554985711786">
+      <name>test_home_page.TestHomePage.test_click_more_btn</name>
+      <attachments>
+        <attachment source="0b3b92a1-3738-4d14-8e75-f69ccb891b9e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击更多按钮"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985707572" status="passed" stop="1554985711092">
+          <name>点击更多按钮</name>
+          <title>点击更多按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985711092" status="passed" stop="1554985711183">
+          <name>获取h5页面title文案</name>
+          <title>获取h5页面title文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985711183" status="passed" stop="1554985711786">
+          <name>点击h5页面返回按钮</name>
+          <title>点击h5页面返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985711788" status="passed" stop="1554985716009">
+      <name>test_home_page.TestHomePage.test_click_msg_center_content</name>
+      <attachments>
+        <attachment source="69c41664-ce58-4998-9f9c-dbda6f4203ac-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击消息盒子入口"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985711790" status="passed" stop="1554985715809">
+          <name>点击消息盒子入口</name>
+          <title>点击消息盒子入口</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985715809" status="passed" stop="1554985715912">
+          <name>获取消息中心页面title</name>
+          <title>获取消息中心页面title</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985715912" status="passed" stop="1554985716009">
+          <name>点击消息中心页返回按钮</name>
+          <title>点击消息中心页返回按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985716011" status="passed" stop="1554985718092">
+      <name>test_home_page.TestHomePage.test_click_set_mode_btn</name>
+      <attachments>
+        <attachment source="37358d5f-d4da-485d-9201-2cfbb0ce3e50-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击模式按钮"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985716014" status="passed" stop="1554985717453">
+          <name>点击模式按钮</name>
+          <title>点击模式按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985717453" status="passed" stop="1554985717966">
+          <name>获取模式设置页面title</name>
+          <title>获取模式设置页面title</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985717966" status="passed" stop="1554985718091">
+          <name>点击模式设置页面关闭按钮</name>
+          <title>点击模式设置页面关闭按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1554985718094" status="broken" stop="1554985721398">
+      <name>test_home_page.TestHomePage.test_click_start_off_btn</name>
+      <failure>
+        <message>WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: 404 - undefined
+</message>
+        <stack-trace>cls = &lt;class 'testcase.test_home_page.TestHomePage'&gt;
+
+    @classmethod
+    def teardown_class(cls):
+&gt;       cls.driver.close()
+
+testcase\test_home_page.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:688: in close
+    self.execute(Command.CLOSE)
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:321: in execute
+    self.error_handler.check_response(response)
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\appium\webdriver\errorhandler.py:29: in check_response
+    raise wde
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\appium\webdriver\errorhandler.py:24: in check_response
+    super(MobileErrorHandler, self).check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;appium.webdriver.errorhandler.MobileErrorHandler object at 0x0000000004B80240&gt;
+response = {'status': 500, 'value': '{"value":{"error":"unknown error","message":"An unknown server-side error occurred while pro...\appium\\\\node_modules\\\\_appium-base-driver@3.15.3@appium-base-driver\\\\lib\\\\protocol\\\\protocol.js:447:37)"}}'}
+
+    def check_response(self, response):
+        """
+            Checks that a JSON response from the WebDriver does not have an error.
+    
+            :Args:
+             - response - The JSON response from the WebDriver server as a dictionary
+               object.
+    
+            :Raises: If the response contains an error message.
+            """
+        status = response.get('status', None)
+        if status is None or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get('value', None)
+            if value_json and isinstance(value_json, basestring):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value['value']
+                    status = value.get('error', None)
+                    if status is None:
+                        status = value["status"]
+                        message = value["value"]
+                        if not isinstance(message, basestring):
+                            value = message
+                            message = message.get('message')
+                    else:
+                        message = value.get('message', None)
+                except ValueError:
+                    pass
+    
+        exception_class = ErrorInResponseException
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if value == '' or value is None:
+            value = response['value']
+        if isinstance(value, basestring):
+            if exception_class == ErrorInResponseException:
+                raise exception_class(response, value)
+            raise exception_class(value)
+        if message == "" and 'message' in value:
+            message = value['message']
+    
+        screen = None
+        if 'screen' in value:
+            screen = value['screen']
+    
+        stacktrace = None
+        if 'stackTrace' in value and value['stackTrace']:
+            stacktrace = []
+            try:
+                for frame in value['stackTrace']:
+                    line = self._value_or_default(frame, 'lineNumber', '')
+                    file = self._value_or_default(frame, 'fileName', '&lt;anonymous&gt;')
+                    if line:
+                        file = "%s:%s" % (file, line)
+                    meth = self._value_or_default(frame, 'methodName', '&lt;anonymous&gt;')
+                    if 'className' in frame:
+                        meth = "%s.%s" % (frame['className'], meth)
+                    msg = "    at %s (%s)"
+                    msg = msg % (meth, file)
+                    stacktrace.append(msg)
+            except TypeError:
+                pass
+        if exception_class == ErrorInResponseException:
+            raise exception_class(response, message)
+        elif exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if 'data' in value:
+                alert_text = value['data'].get('text')
+            elif 'alert' in value:
+                alert_text = value['alert'].get('text')
+            raise exception_class(message, screen, stacktrace, alert_text)
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: 404 - undefined
+
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py:242: WebDriverException</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="994e8bef-dfc8-4057-92a3-d7192c5a53ae-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="6f4bffe1-473b-410c-a07b-b5696360f7c9-attachment.txt" title="Captured log call" type="text/plain"/>
+        <attachment source="2f3f5dcc-ad8c-4ce7-97cb-e7d21f917c41-attachment.txt" title="Captured log teardown" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="首页"/>
+        <label name="story" value="点击接单按钮"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="31428-MainThread"/>
+        <label name="host" value="BR2818001280"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1554985718095" status="passed" stop="1554985719601">
+          <name>点击接单按钮</name>
+          <title>点击接单按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1554985719601" status="passed" stop="1554985720883">
+          <name>获取听单状态文案</name>
+          <title>获取听单状态文案</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

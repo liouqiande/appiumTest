@@ -1,0 +1,32 @@
+home_page.py                13 INFO     个人中心入口
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "tv_title_person_center", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/2d139edd-10c8-400d-99d1-27587ff25080/click {"id": "2d139edd-10c8-400d-99d1-27587ff25080", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/2d139edd-10c8-400d-99d1-27587ff25080/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+base_page.py                56 INFO     get 个人中心 screenshot
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot {"sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot HTTP/1.1" 200 307728
+remote_connection.py       440 DEBUG    Finished Request
+person_center_page.py       19 INFO     定位个人主页入口
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "person_center_header_name_desc", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/59857a08-70cf-4d90-8acb-375c32e1295c/attribute/text {"name": "text", "id": "59857a08-70cf-4d90-8acb-375c32e1295c", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/59857a08-70cf-4d90-8acb-375c32e1295c/attribute/text HTTP/1.1" 200 36
+remote_connection.py       440 DEBUG    Finished Request
+person_center_page.py       13 INFO     定位个人中心返回按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "person_center_titlebar_back", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/84c5e9db-a851-4d0b-8f88-54b9727ee619/click {"id": "84c5e9db-a851-4d0b-8f88-54b9727ee619", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/84c5e9db-a851-4d0b-8f88-54b9727ee619/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request

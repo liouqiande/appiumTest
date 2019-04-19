@@ -1,0 +1,23 @@
+home_page.py               109 INFO     定位接单/休息按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "main_control_panel_start_off_btn_start_off", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/f5b7f9ef-3e25-4254-8e09-ed9d7fcfe45e/click {"id": "f5b7f9ef-3e25-4254-8e09-ed9d7fcfe45e", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/f5b7f9ef-3e25-4254-8e09-ed9d7fcfe45e/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+base_page.py                56 INFO     get 接单中 screenshot
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot {"sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot HTTP/1.1" 200 333450
+remote_connection.py       440 DEBUG    Finished Request
+home_page.py               115 INFO     定位听单状态
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "txt_listening_order", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/f0dcbf80-9d6a-4b6e-9087-cfd502e1261a/attribute/text {"name": "text", "id": "f0dcbf80-9d6a-4b6e-9087-cfd502e1261a", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/f0dcbf80-9d6a-4b6e-9087-cfd502e1261a/attribute/text HTTP/1.1" 200 21
+remote_connection.py       440 DEBUG    Finished Request

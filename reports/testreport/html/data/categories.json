@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: 404 - undefined\n",
+      "children" : [ {
+        "name" : "test_home_page.TestHomePage.test_click_start_off_btn",
+        "uid" : "d3d23b3815da4338",
+        "parentUid" : "e4721ae7075868e3537158573b4a74e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1554985718094,
+          "stop" : 1554985721398,
+          "duration" : 3304
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4721ae7075868e3537158573b4a74e9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

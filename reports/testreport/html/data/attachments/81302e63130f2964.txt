@@ -1,0 +1,32 @@
+home_page.py                73 INFO     定位奖励按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "xpath", "value": "//*[contains(@resource-id, 'tool_txt_title_msg') and @text='\u5956\u52b1']", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/d8ec6aa3-6fd0-489e-9cad-6bb335df7d00/click {"id": "d8ec6aa3-6fd0-489e-9cad-6bb335df7d00", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/d8ec6aa3-6fd0-489e-9cad-6bb335df7d00/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+base_page.py                56 INFO     get 奖励 screenshot
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot {"sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/screenshot HTTP/1.1" 200 307488
+remote_connection.py       440 DEBUG    Finished Request
+h5_page.py                  25 INFO     定位h5页面title
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "title_bar_name", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/10d0bf66-e69b-4dc3-b28f-01007650c294/attribute/text {"name": "text", "id": "10d0bf66-e69b-4dc3-b28f-01007650c294", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "GET /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/10d0bf66-e69b-4dc3-b28f-01007650c294/attribute/text HTTP/1.1" 200 24
+remote_connection.py       440 DEBUG    Finished Request
+h5_page.py                  13 INFO     定位h5页面返回按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "titlebar_left_back", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/10cc6658-b4ff-44c2-bc88-41989635cc15/click {"id": "10cc6658-b4ff-44c2-bc88-41989635cc15", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/10cc6658-b4ff-44c2-bc88-41989635cc15/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request

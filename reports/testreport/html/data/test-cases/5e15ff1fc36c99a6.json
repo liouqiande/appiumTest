@@ -1,0 +1,127 @@
+{
+  "uid" : "5e15ff1fc36c99a6",
+  "name" : "test_home_page.TestHomePage.test_click_carlife_tab",
+  "fullName" : "testcase.test_home_page.TestHomePage.test_click_carlife_tab",
+  "historyId" : "720a072b3a3f6b078340334eda367dbb",
+  "time" : {
+    "start" : 1554985671918,
+    "stop" : 1554985676875,
+    "duration" : 4957
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击小桔车服tab",
+      "time" : {
+        "start" : 1554985671919,
+        "stop" : 1554985673794,
+        "duration" : 1875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断小桔车服页面行车服务按钮已经展示",
+      "time" : {
+        "start" : 1554985673794,
+        "stop" : 1554985675698,
+        "duration" : 1904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击首页tab",
+      "time" : {
+        "start" : 1554985675698,
+        "stop" : 1554985676875,
+        "duration" : 1177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "960d4cf98a354f5e",
+      "name" : "Captured log call",
+      "source" : "960d4cf98a354f5e.txt",
+      "type" : "text/plain",
+      "size" : 4887
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "BR2818001280"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "点击小桔车服tab"
+  }, {
+    "name" : "thread",
+    "value" : "31428-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_home_page.TestHomePage.test_click_carlife_tab"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e15ff1fc36c99a6.json",
+  "parameterValues" : [ ]
+}

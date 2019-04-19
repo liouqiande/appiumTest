@@ -1,0 +1,59 @@
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": 8.0, "appium:deviceName": "mate8", "appium:noReset": false, "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:appPackage": "com.sdu.didi.gsui", "appium:appActivity": ".main.StartActivity", "appium:autoGrantPermissions": true, "appium:automationName": "UiAutomator2"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": 8.0, "deviceName": "mate8", "noReset": false, "unicodeKeyboard": true, "resetKeyboard": true, "appPackage": "com.sdu.didi.gsui", "appActivity": ".main.StartActivity", "autoGrantPermissions": true, "automationName": "UiAutomator2"}}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1079
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/timeouts {"implicit": 15000, "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/timeouts HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+login_page.py               13 INFO     定位手机号输入框
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "et_phone", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/1b0a8eae-2fb2-49a8-affe-e7852ba3ceab/value {"text": "00015006672", "value": ["0", "0", "0", "1", "5", "0", "0", "6", "6", "7", "2"], "id": "1b0a8eae-2fb2-49a8-affe-e7852ba3ceab", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/1b0a8eae-2fb2-49a8-affe-e7852ba3ceab/value HTTP/1.1" 200 12
+remote_connection.py       440 DEBUG    Finished Request
+login_page.py               25 INFO     定位同意单选框
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "cb_law", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/c7db6efb-21c9-48a6-b9ce-93da8f4916a0/click {"id": "c7db6efb-21c9-48a6-b9ce-93da8f4916a0", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/c7db6efb-21c9-48a6-b9ce-93da8f4916a0/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+login_page.py               37 INFO     定位下一步按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "btn_next", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/2bbfc964-c893-4d0a-b9f7-27dbdab1a3c8/click {"id": "2bbfc964-c893-4d0a-b9f7-27dbdab1a3c8", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/2bbfc964-c893-4d0a-b9f7-27dbdab1a3c8/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+login_page.py               43 INFO     定位密码输入框
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "et_unify_login_input_password", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/234e6a73-8908-4fb2-92b0-3379fcc83b4a/value {"text": "1234qwer", "value": ["1", "2", "3", "4", "q", "w", "e", "r"], "id": "234e6a73-8908-4fb2-92b0-3379fcc83b4a", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/234e6a73-8908-4fb2-92b0-3379fcc83b4a/value HTTP/1.1" 200 12
+remote_connection.py       440 DEBUG    Finished Request
+login_page.py               49 INFO     定位确认按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "btn_unify_login_confirm_password", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 200 137
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/4d60b014-714f-4f68-a0b9-719f157b8bdc/click {"id": "4d60b014-714f-4f68-a0b9-719f157b8bdc", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element/4d60b014-714f-4f68-a0b9-719f157b8bdc/click HTTP/1.1" 200 14
+remote_connection.py       440 DEBUG    Finished Request
+login_page.py               61 INFO     定位弹屏广告关闭按钮
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element {"using": "id", "value": "main_dialog_banner_image_close", "sessionId": "49709bb9-761b-4bdb-979c-e6798579da39"}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:4723
+connectionpool.py          393 DEBUG    http://127.0.0.1:4723 "POST /wd/hub/session/49709bb9-761b-4bdb-979c-e6798579da39/element HTTP/1.1" 404 464
+remote_connection.py       440 DEBUG    Finished Request
+base_page.py                31 INFO     没有找到close_btn元素

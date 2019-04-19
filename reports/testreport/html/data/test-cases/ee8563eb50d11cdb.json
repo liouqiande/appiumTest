@@ -1,0 +1,178 @@
+{
+  "uid" : "ee8563eb50d11cdb",
+  "name" : "test_home_page.TestHomePage.test_click_homepage_tab",
+  "fullName" : "testcase.test_home_page.TestHomePage.test_click_homepage_tab",
+  "historyId" : "b29c25235f14c81f9d7938eef07034b3",
+  "time" : {
+    "start" : 1554985623110,
+    "stop" : 1554985669417,
+    "duration" : 46307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入手机号码",
+      "time" : {
+        "start" : 1554985644302,
+        "stop" : 1554985644508,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击同意单选框",
+      "time" : {
+        "start" : 1554985644508,
+        "stop" : 1554985645203,
+        "duration" : 695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击下一步按钮",
+      "time" : {
+        "start" : 1554985645203,
+        "stop" : 1554985645800,
+        "duration" : 597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1554985645800,
+        "stop" : 1554985648028,
+        "duration" : 2228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确认按钮",
+      "time" : {
+        "start" : 1554985648028,
+        "stop" : 1554985648807,
+        "duration" : 779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取模式设置按钮文案",
+      "time" : {
+        "start" : 1554985669194,
+        "stop" : 1554985669417,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1982fa73422e4787",
+      "name" : "Captured log setup",
+      "source" : "1982fa73422e4787.txt",
+      "type" : "text/plain",
+      "size" : 8262
+    }, {
+      "uid" : "9111fb7914e190d3",
+      "name" : "Captured log call",
+      "source" : "9111fb7914e190d3.txt",
+      "type" : "text/plain",
+      "size" : 1215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "BR2818001280"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "进入首页"
+  }, {
+    "name" : "thread",
+    "value" : "31428-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_home_page.TestHomePage.test_click_homepage_tab"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee8563eb50d11cdb.json",
+  "parameterValues" : [ ]
+}

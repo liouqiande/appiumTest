@@ -1,0 +1,127 @@
+{
+  "uid" : "c380d67ba66bcc28",
+  "name" : "test_home_page.TestHomePage.test_click_today_money",
+  "fullName" : "testcase.test_home_page.TestHomePage.test_click_today_money",
+  "historyId" : "d64452bc1d2430f2b2e92c0e7eb91215",
+  "time" : {
+    "start" : 1554985683741,
+    "stop" : 1554985688318,
+    "duration" : 4577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击今日流水",
+      "time" : {
+        "start" : 1554985683743,
+        "stop" : 1554985687481,
+        "duration" : 3738
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取h5页面title文案",
+      "time" : {
+        "start" : 1554985687481,
+        "stop" : 1554985688197,
+        "duration" : 716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击h5页面返回按钮",
+      "time" : {
+        "start" : 1554985688197,
+        "stop" : 1554985688317,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "506ac90acbc3f701",
+      "name" : "Captured log call",
+      "source" : "506ac90acbc3f701.txt",
+      "type" : "text/plain",
+      "size" : 4214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "BR2818001280"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "点击今日流水"
+  }, {
+    "name" : "thread",
+    "value" : "31428-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_home_page.TestHomePage.test_click_today_money"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c380d67ba66bcc28.json",
+  "parameterValues" : [ ]
+}

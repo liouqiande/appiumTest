@@ -1,0 +1,127 @@
+{
+  "uid" : "2a3c06ccfb3281e7",
+  "name" : "test_home_page.TestHomePage.test_click_compliance",
+  "fullName" : "testcase.test_home_page.TestHomePage.test_click_compliance",
+  "historyId" : "d8a70dba09e01a43b5354b4b800536c7",
+  "time" : {
+    "start" : 1554985692630,
+    "stop" : 1554985697856,
+    "duration" : 5226
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击合规按钮",
+      "time" : {
+        "start" : 1554985692634,
+        "stop" : 1554985696017,
+        "duration" : 3383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取h5页面title文案",
+      "time" : {
+        "start" : 1554985696017,
+        "stop" : 1554985697700,
+        "duration" : 1683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击h5页面返回按钮",
+      "time" : {
+        "start" : 1554985697700,
+        "stop" : 1554985697855,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4c054f3e0659f5e1",
+      "name" : "Captured log call",
+      "source" : "4c054f3e0659f5e1.txt",
+      "type" : "text/plain",
+      "size" : 4190
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "首页"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "BR2818001280"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "点击合规按钮"
+  }, {
+    "name" : "thread",
+    "value" : "31428-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_home_page.TestHomePage.test_click_compliance"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a3c06ccfb3281e7.json",
+  "parameterValues" : [ ]
+}

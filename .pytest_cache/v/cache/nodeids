@@ -1,0 +1,16 @@
+[
+  "testcase/test_home_page.py::TestHomePage::()::test_click_homepage_tab",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_person_center",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_carlife_tab",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_msg_center",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_service_count",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_today_money",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_today_order",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_compliance",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_reward",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_hot_map",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_more_btn",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_msg_center_content",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_set_mode_btn",
+  "testcase/test_home_page.py::TestHomePage::()::test_click_start_off_btn"
+]
